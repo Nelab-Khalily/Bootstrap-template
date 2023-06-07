@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-4.6.2-dist/css/bootstrap.min.css">
+    <script src="jquery/3.4.1/jquery.min.js"></script>
+    <script src="libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="bootstrap-4.6.2-dist/js/bootstrap.min.js"></script>
+    <link rel="stylest" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- navar section -->
+    <div class="nav">
+        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-fixed-top">
+                <div class="container p-2">
+                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                   <ul class="navbar-nav ml-auto ">
+                     <li class="nav-item pr-4">
+                       <a class="nav-link" href="#about">About</a>
+                     </li>
+                    <li class="nav-item pr-4">
+                       <a class="nav-link" href="#service">Services</a>
+                    </li>
+                    <li class="nav-item pr-4">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                     </li>   
+                    <li class="nav-item">
+                         <a class="nav-link" href="#contact">Contact</a>
+                   </li>   
+                    </ul>
+                </div> 
+                </div>
+            </div>
+        </nav>
+    <!-- head Section-->
+        <header id="head">
+            <div class="dark-overlay">
+                <div class="home-inner">
+                    <div id="div-about" class="container text-light ">
+                        <div class="row">
+                            <div class="col-sm-2"></div>
+                            <div class="col-sm-8 text-center">
+                                <h1 style="font-size: 300%;" class="font-weight-bold mb-2">Your Favorite Place for<br> 
+                                    Free Bootstrap Themes</h1>
+                                    <hr style="border-color: #f4623a;"> 
+                                <p class="mt-2">
+                                    Start Bootstrap can help you build better websites using the Bootstrap framework!<br>
+                                    Just download a theme and start customizing, no strings attached!
+                                </p>
+                                <a class="btn mt-5" href="#about">FIND OUT MORE!</a> 
+                            </div>
+                            <div class="col-sm-2"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+    <!-- about section -->
+    <section id="about">
+        <div class="container p-5">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="py-5">
+                        <h2>We have got what you need!</h2>
+                        <hr style="border-color: white;"> 
+                        <p class="text-white-75 mb-4">
+                        Start Bootstrap has everything you need to get your new website up and running in no time!<br>
+                         Choose one of our open source, free to download, and easy to use themes! No strings attached!</p>
+                        </p>
+                        <a class="btn mt-5" style="background-color: white; color:black;" href="#service">GET STARTED!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service section -->
+    <section id="service">
+        <div class="container text-center p-5">
+            <h2 class="mt-5">At your service</h2>
+            <hr style="border-color:#f4623a ;"> 
+            <div class="row mt-5">
+                <div class="col-sm-3 p-2">
+                    <h3 class="h4">
+                        <span class="fa fa-diamond fa-2x pb-4"></span>
+                        <br>
+                        Sturdy Themes
+                    </h3>
+                    <p class="text-muted">Our themes are updated regularly to keep them bug
+                    free!</p>
+                 </div>
+                <div class="col-sm-3">
+                    <h3 class="h4">
+                        <span class="fa fa-laptop fa-2x fa-3x pb-2"></span>
+                        <br>
+                        Up to Date
+                    </h3>
+                    <p class="text-muted">All dependencies are kept current to keep things fresh.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="h4">
+                        <span class="fa fa-laptop fa-2x fa-3x pb-2"></span>
+                        <br>
+                        Up to Date
+                    </h3>
+                    <p class="text-muted">All dependencies are kept current to keep things fresh.</p>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="h4">
+                        <span class="fa fa-share-square-o fa-2x pb-4"></span>
+                        <br>
+                        Ready to Publish
+                    </h3>
+                    <p class="text-muted">Is it really open source if it's not made with love?</p>    
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section -->
+    <section id="portfolio">
+            <div class="d-flex">
+                <div class="image flex-fill">
+                    <a href="images/1.jpg">
+                    <img class="img-fluid image__img" src="images/1.jpg" alt="Picture">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            <h1 class="text-light">Project Name</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="image flex-fill">
+                    <a href="images/2.jpg">
+                        <img class="img-fluid image__img" src="images/2.jpg" alt="Picture">
+                        <div class="image__overlay">
+                            <div class="image__title">
+                                <h1 class="text-light">Project Name</h1>
+                            </div>
+                        </div>
+                    </a>
+                </div>                
+                <div class="image flex-fill">
+                    <a href="images/3.jpg">
+                    <img class="img-fluid image__img" src="images/3.jpg" alt="Picture">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            <h1 class="text-light">Project Name</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+            <div class="d-flex">
+                <div class="image flex-fill">
+                    <a href="images/4.jpg">
+                    <img class="img-fluid image__img" src="images/4.jpg" alt="Picture">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            <h1 class="text-light">Project Name</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div>                
+                <div class="image flex-fill">
+                    <a href="images/5.jpg">
+                    <img class="img-fluid image__img" src="images/5.jpg" alt="Picture">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            <h1 class="text-light">Project Name</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div>                
+                <div class="image flex-fill">
+                    <a href="images/6.jpg">
+                    <img class="img-fluid image__img" src="images/6.jpg" alt="Picture">
+                    <div class="image__overlay">
+                        <div class="image__title">
+                            <h1 class="text-light">Project Name</h1>
+                        </div>
+                    </div>
+                    </a>
+                </div>
+            </div>
+    </section>
+    <!-- download div -->
+    <div id="download">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col text-center">
+                    <div class="">
+                      <h3 class="pt-5">Free Download at start Bootstrap</h3>
+                      <a class="btn mt-2" style="background-color: white; color:black" href="https://startbootstrap.com/theme/creative/">DOWNLOAD NOW!</a>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact section -->
+    <section id="contact">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6 py-5">
+                <div class="container text-center">
+                  <h2>Let's Get In Touch!</h2>
+                  <hr style="border-color: #f4623a;"> 
+                  <p class="text-muted mb-5">
+                    Ready to start your next project with us?
+                    Send us a messages and we will<br> get back to you as soon as possible!
+                </p>
+                <form action="#">
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="name" placeholder="Full name" name="name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="name" placeholder="Email Address" name="name">
+                    </div>
+                    <div class="form-group">
+                      <input type="number" class="form-control" id="name" placeholder="Phone number" name="name">
+                   </div>
+                   <div class="form-group">
+                      <textarea type="text" class="form-control" id="name" placeholder="message" name="name"></textarea>
+                   </div>
+                    <a class="btn mt-1" style="background-color: rgba(255, 99, 71, 0.712); color:white;" href="#">SUBMIT</a>
+                </form>
+                <p class="pt-3">+1 (555) 123-4567</p>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer id="footer">
+        <div class="container text-center  pt-5">
+            <p>Copyright © 2022 - Nelab Khalily</p>
+        </div>
+    </footer>
+
+
+    <script>
+        $(function () {
+        $(document).scroll(function () {
+            var $nav = $(".navbar-fixed-top");
+            $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+        });
+        });
+    </script>
+</body>
+</html>
